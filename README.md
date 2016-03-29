@@ -27,4 +27,15 @@ Well, not good enough for me.
 
 So, my main goal is to develop an app that allows me to suspend/sleep my computer and ask for a message to show me latter, when I log in again
 
-Aaaaand that's it.
+---
+
+## So far, what have you done?
+
+Well, I've found a  very good [point to start](https://github.com/taichino/PopupTest) (so, thank you a lot [taichino](https://github.com/taichino)!) and now I'm trying to execute a system call with sudo privileges.
+
+The command should be something like this:
+```shell
+    sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText \" Your message goes here! \""
+```
+
+But I'm having troubles with this (well, some help would be... helpfull :v )
