@@ -1,8 +1,11 @@
-# focus-tracker
+# CatchUp Focus!
+
+##TL;DR
+An app that popups a window to write a message to happear in the login screen. This app will live in the Menu Bar, and will have a keyboard-shortcut.
 
 ## What is it dude?
 
-So, this is me trying to build an app to help me track what I was doing
+So, this is me trying to build an app to help me catch up with what I was doing
 
 ## What dude?
 

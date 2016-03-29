@@ -16,6 +16,9 @@ class ContentViewController : NSViewController {
     var btt_width = 50
     var btt_height = 30
     
+    var myAuthorizationRef: AuthorizationRef!
+    var myStatus : OSStatus!
+    
     deinit {
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }
@@ -63,8 +66,8 @@ class ContentViewController : NSViewController {
     func setLoginMessage(obj:AnyObject?) {
         let txtLoginMsg = searchField.stringValue
         NSLog("Search for %@", txtLoginMsg)
-        let res = shell("sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText \" Try Number one \"")
-        NSLog("Result of script: %@", res)
+        //let res = shell("sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText \" Try Number one \"")
+        //NSLog("Result of script: %@", res)
 
     }
     
