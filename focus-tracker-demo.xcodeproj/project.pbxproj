@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B97AEA01CA92F9D002478B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97AE9F1CA92F9D002478B0 /* AppDelegate.swift */; };
+		3B97AEB21CA92F9D002478B0 /* focus_tracker_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97AEB11CA92F9D002478B0 /* focus_tracker_demoTests.swift */; };
+		3B97AEBD1CA92F9D002478B0 /* focus_tracker_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97AEBC1CA92F9D002478B0 /* focus_tracker_demoUITests.swift */; };
+		3B97AECB1CA93856002478B0 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97AECA1CA93856002478B0 /* ContentViewController.swift */; };
+		3B97AECD1CA938D6002478B0 /* DummyControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97AECC1CA938D6002478B0 /* DummyControl.swift */; };
+		3BD589DC1CA9796400AF632E /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD589DA1CA9796400AF632E /* Status@2x.png */; };
+		3BD589DD1CA9796400AF632E /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BD589DB1CA9796400AF632E /* StatusHighlighted@2x.png */; };
+		3BD589DE1CA97A5900AF632E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD589E01CA97A5900AF632E /* MainMenu.xib */; };
+		3BD589E51CA97BE900AF632E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD589E41CA97BE900AF632E /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B97AEAE1CA92F9D002478B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B97AE941CA92F9D002478B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B97AE9B1CA92F9D002478B0;
+			remoteInfo = "focus-tracker-demo";
+		};
+		3B97AEB91CA92F9D002478B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B97AE941CA92F9D002478B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B97AE9B1CA92F9D002478B0;
+			remoteInfo = "focus-tracker-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B97AE9C1CA92F9D002478B0 /* focus-tracker-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "focus-tracker-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B97AE9F1CA92F9D002478B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B97AEA81CA92F9D002478B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B97AEAD1CA92F9D002478B0 /* focus-tracker-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "focus-tracker-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B97AEB11CA92F9D002478B0 /* focus_tracker_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focus_tracker_demoTests.swift; sourceTree = "<group>"; };
+		3B97AEB31CA92F9D002478B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B97AEB81CA92F9D002478B0 /* focus-tracker-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "focus-tracker-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B97AEBC1CA92F9D002478B0 /* focus_tracker_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focus_tracker_demoUITests.swift; sourceTree = "<group>"; };
+		3B97AEBE1CA92F9D002478B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B97AECA1CA93856002478B0 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		3B97AECC1CA938D6002478B0 /* DummyControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyControl.swift; sourceTree = "<group>"; };
+		3BD589DA1CA9796400AF632E /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "../../../PopupTest/PopupTest/Status@2x.png"; sourceTree = "<group>"; };
+		3BD589DB1CA9796400AF632E /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusHighlighted@2x.png"; path = "../../../PopupTest/PopupTest/StatusHighlighted@2x.png"; sourceTree = "<group>"; };
+		3BD589DF1CA97A5900AF632E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3BD589E41CA97BE900AF632E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B97AE991CA92F9D002478B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B97AEAA1CA92F9D002478B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B97AEB51CA92F9D002478B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B97AE931CA92F9D002478B0 = {
+			isa = PBXGroup;
+			children = (
+				3B97AE9E1CA92F9D002478B0 /* focus-tracker-demo */,
+				3B97AEB01CA92F9D002478B0 /* focus-tracker-demoTests */,
+				3B97AEBB1CA92F9D002478B0 /* focus-tracker-demoUITests */,
+				3B97AE9D1CA92F9D002478B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B97AE9D1CA92F9D002478B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B97AE9C1CA92F9D002478B0 /* focus-tracker-demo.app */,
+				3B97AEAD1CA92F9D002478B0 /* focus-tracker-demoTests.xctest */,
+				3B97AEB81CA92F9D002478B0 /* focus-tracker-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B97AE9E1CA92F9D002478B0 /* focus-tracker-demo */ = {
+			isa = PBXGroup;
+			children = (
+				3BD589E61CA97FB000AF632E /* Supporting Files */,
+				3BD589E31CA97BBB00AF632E /* img */,
+				3BD589E21CA97BA400AF632E /* src */,
+			);
+			path = "focus-tracker-demo";
+			sourceTree = "<group>";
+		};
+		3B97AEB01CA92F9D002478B0 /* focus-tracker-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B97AEB11CA92F9D002478B0 /* focus_tracker_demoTests.swift */,
+				3B97AEB31CA92F9D002478B0 /* Info.plist */,
+			);
+			path = "focus-tracker-demoTests";
+			sourceTree = "<group>";
+		};
+		3B97AEBB1CA92F9D002478B0 /* focus-tracker-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B97AEBC1CA92F9D002478B0 /* focus_tracker_demoUITests.swift */,
+				3B97AEBE1CA92F9D002478B0 /* Info.plist */,
+			);
+			path = "focus-tracker-demoUITests";
+			sourceTree = "<group>";
+		};
+		3BD589E21CA97BA400AF632E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3B97AECA1CA93856002478B0 /* ContentViewController.swift */,
+				3B97AE9F1CA92F9D002478B0 /* AppDelegate.swift */,
+				3B97AECC1CA938D6002478B0 /* DummyControl.swift */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		3BD589E31CA97BBB00AF632E /* img */ = {
+			isa = PBXGroup;
+			children = (
+				3BD589E41CA97BE900AF632E /* Images.xcassets */,
+				3BD589DA1CA9796400AF632E /* Status@2x.png */,
+				3BD589DB1CA9796400AF632E /* StatusHighlighted@2x.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		3BD589E61CA97FB000AF632E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B97AEA81CA92F9D002478B0 /* Info.plist */,
+				3BD589E01CA97A5900AF632E /* MainMenu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B97AE9B1CA92F9D002478B0 /* focus-tracker-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B97AEC11CA92F9D002478B0 /* Build configuration list for PBXNativeTarget "focus-tracker-demo" */;
+			buildPhases = (
+				3B97AE981CA92F9D002478B0 /* Sources */,
+				3B97AE991CA92F9D002478B0 /* Frameworks */,
+				3B97AE9A1CA92F9D002478B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "focus-tracker-demo";
+			productName = "focus-tracker-demo";
+			productReference = 3B97AE9C1CA92F9D002478B0 /* focus-tracker-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B97AEAC1CA92F9D002478B0 /* focus-tracker-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B97AEC41CA92F9D002478B0 /* Build configuration list for PBXNativeTarget "focus-tracker-demoTests" */;
+			buildPhases = (
+				3B97AEA91CA92F9D002478B0 /* Sources */,
+				3B97AEAA1CA92F9D002478B0 /* Frameworks */,
+				3B97AEAB1CA92F9D002478B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B97AEAF1CA92F9D002478B0 /* PBXTargetDependency */,
+			);
+			name = "focus-tracker-demoTests";
+			productName = "focus-tracker-demoTests";
+			productReference = 3B97AEAD1CA92F9D002478B0 /* focus-tracker-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B97AEB71CA92F9D002478B0 /* focus-tracker-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B97AEC71CA92F9D002478B0 /* Build configuration list for PBXNativeTarget "focus-tracker-demoUITests" */;
+			buildPhases = (
+				3B97AEB41CA92F9D002478B0 /* Sources */,
+				3B97AEB51CA92F9D002478B0 /* Frameworks */,
+				3B97AEB61CA92F9D002478B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B97AEBA1CA92F9D002478B0 /* PBXTargetDependency */,
+			);
+			name = "focus-tracker-demoUITests";
+			productName = "focus-tracker-demoUITests";
+			productReference = 3B97AEB81CA92F9D002478B0 /* focus-tracker-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B97AE941CA92F9D002478B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tiago dos Santos";
+				TargetAttributes = {
+					3B97AE9B1CA92F9D002478B0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3B97AEAC1CA92F9D002478B0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3B97AE9B1CA92F9D002478B0;
+					};
+					3B97AEB71CA92F9D002478B0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3B97AE9B1CA92F9D002478B0;
+					};
+				};
+			};
+			buildConfigurationList = 3B97AE971CA92F9D002478B0 /* Build configuration list for PBXProject "focus-tracker-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B97AE931CA92F9D002478B0;
+			productRefGroup = 3B97AE9D1CA92F9D002478B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B97AE9B1CA92F9D002478B0 /* focus-tracker-demo */,
+				3B97AEAC1CA92F9D002478B0 /* focus-tracker-demoTests */,
+				3B97AEB71CA92F9D002478B0 /* focus-tracker-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B97AE9A1CA92F9D002478B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD589E51CA97BE900AF632E /* Images.xcassets in Resources */,
+				3BD589DE1CA97A5900AF632E /* MainMenu.xib in Resources */,
+				3BD589DD1CA9796400AF632E /* StatusHighlighted@2x.png in Resources */,
+				3BD589DC1CA9796400AF632E /* Status@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B97AEAB1CA92F9D002478B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B97AEB61CA92F9D002478B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B97AE981CA92F9D002478B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B97AECB1CA93856002478B0 /* ContentViewController.swift in Sources */,
+				3B97AECD1CA938D6002478B0 /* DummyControl.swift in Sources */,
+				3B97AEA01CA92F9D002478B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B97AEA91CA92F9D002478B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B97AEB21CA92F9D002478B0 /* focus_tracker_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B97AEB41CA92F9D002478B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B97AEBD1CA92F9D002478B0 /* focus_tracker_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B97AEAF1CA92F9D002478B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B97AE9B1CA92F9D002478B0 /* focus-tracker-demo */;
+			targetProxy = 3B97AEAE1CA92F9D002478B0 /* PBXContainerItemProxy */;
+		};
+		3B97AEBA1CA92F9D002478B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B97AE9B1CA92F9D002478B0 /* focus-tracker-demo */;
+			targetProxy = 3B97AEB91CA92F9D002478B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BD589E01CA97A5900AF632E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD589DF1CA97A5900AF632E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B97AEBF1CA92F9D002478B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B97AEC01CA92F9D002478B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B97AEC21CA92F9D002478B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "focus-tracker-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tds.focus-tracker-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B97AEC31CA92F9D002478B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "focus-tracker-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tds.focus-tracker-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B97AEC51CA92F9D002478B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "focus-tracker-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tds.focus-tracker-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/focus-tracker-demo.app/Contents/MacOS/focus-tracker-demo";
+			};
+			name = Debug;
+		};
+		3B97AEC61CA92F9D002478B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "focus-tracker-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tds.focus-tracker-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/focus-tracker-demo.app/Contents/MacOS/focus-tracker-demo";
+			};
+			name = Release;
+		};
+		3B97AEC81CA92F9D002478B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "focus-tracker-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tds.focus-tracker-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "focus-tracker-demo";
+			};
+			name = Debug;
+		};
+		3B97AEC91CA92F9D002478B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "focus-tracker-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tds.focus-tracker-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "focus-tracker-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B97AE971CA92F9D002478B0 /* Build configuration list for PBXProject "focus-tracker-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B97AEBF1CA92F9D002478B0 /* Debug */,
+				3B97AEC01CA92F9D002478B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B97AEC11CA92F9D002478B0 /* Build configuration list for PBXNativeTarget "focus-tracker-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B97AEC21CA92F9D002478B0 /* Debug */,
+				3B97AEC31CA92F9D002478B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B97AEC41CA92F9D002478B0 /* Build configuration list for PBXNativeTarget "focus-tracker-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B97AEC51CA92F9D002478B0 /* Debug */,
+				3B97AEC61CA92F9D002478B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B97AEC71CA92F9D002478B0 /* Build configuration list for PBXNativeTarget "focus-tracker-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B97AEC81CA92F9D002478B0 /* Debug */,
+				3B97AEC91CA92F9D002478B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B97AE941CA92F9D002478B0 /* Project object */;
+}
